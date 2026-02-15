@@ -1,0 +1,9 @@
+name: Final CI Check
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Success
+        run: echo "Project GiftLink Successfully Built for ahmad"
+        
